@@ -1,25 +1,25 @@
 # labspy01
 ## Latihan 1
 
-Program Sederhana Menampilkan Blangan Terbesar </p>
+<p> Program Sederhana Menampilkan Blangan Terbesar </p>
 
 ![img 1](screenshot/1.png)
 
 Penjelasan :
 
-    1. Buatlah integer untuk menginput bilangan bulat untuk di proses dan dimasukan ke variabel maks
+   <p> 1. Buatlah integer untuk menginput bilangan bulat untuk di proses dan dimasukan ke variabel maks </p>
 
 ```bash
 a = int(input("Masukan Nilai 1 : "))
 b = int(input("Masukan Nilai 2 : "))
 ```
 Proses : 
-    2. jika (if) bilangan a lebih besar dari biangan b maka bilangan a lebih besar
+   <p> 2. jika (if) bilangan a lebih besar dari biangan b maka bilangan a lebih besar </p>
 ```bash
 if a > b:
     makx = a
 ```
-    3. jika (if) bilangan b lebih besar dari bilangan a maka bilangan b lebih besar
+   <p> 3. jika (if) bilangan b lebih besar dari bilangan a maka bilangan b lebih besar </p>
 ```bash
 else:
     makx = b
