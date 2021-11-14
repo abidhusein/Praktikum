@@ -26,7 +26,7 @@ if a > b:
 else:
     makx = b
 ```
-    4. Untuk menampilkan hasil
+   <p> 4. Untuk menampilkan hasil </p>
 
 ```bash
 print ("Bilangan terbesar Adalah : ",makx)
@@ -34,13 +34,13 @@ print ("Bilangan terbesar Adalah : ",makx)
 
 ## Latihan 2
 
-Program Menampilkan Sebuah Bilangan Dari Bilangan Terkecil ke Bilangan Terbesar
+<p> Program Menampilkan Sebuah Bilangan Dari Bilangan Terkecil ke Bilangan Terbesar </p>
 
 ![Img 2](screenshot/2.png)
 
-Penjelasan :
+<p> Penjelasan : </p>
 
-    1. Untuk menginput lima buah bilangan yang akan dimasukan ke list variabel 
+   <p> 1. Untuk menginput lima buah bilangan yang akan dimasukan ke list variabel </p>
 
 ```bash
 bilangan = []
@@ -48,35 +48,35 @@ for i in range(1,6):
     bilangan.append(int(input("Masukan Bilangan : ")))
 ```
 
-    2. Data akan diproses menggunakan metode sort. yaitu metode untuk mengurutkan data, baik itu dari nilai terkecil ataupun terbesar.
+  <p>  2. Data akan diproses menggunakan metode sort. yaitu metode untuk mengurutkan data, baik itu dari nilai terkecil ataupun terbesar. </p>
 
 ```bash
 bilangan.sort()
 ```
-    3. Untuk Menapilkan Data
+   <p> 3. Untuk Menapilkan Data </p>
 
 ```bash
 print("Urutan Bilangan",bilangan)
 ```
-SELESAi
+<p> SELESAI </p>
 
 ## Latihan 3
 
-Program Perulangan Bertingkat (Nested for)
+<p> Program Perulangan Bertingkat (Nested for) </p>
 
 ![Img 3](screenshot/3.png)
 
-Penjelasan :
-Note : i (Baris), j (Kolom)
+<p> Penjelasan :
+Note : i (Baris), j (Kolom) </p>
 
-    1. Untuk melakukan perulangan baris dan kolom dengan nilai 10, menggunakan nested for
+  <p>  1. Untuk melakukan perulangan baris dan kolom dengan nilai 10, menggunakan nested for </p>
 
 ```bash
 for i in range (10):
     for j in range (10):
         
 ```
-    2. Untuk hasil dari perulangan
+  <p>  2. Untuk hasil dari perulangan </p>
 
 ```bash
 print ('%3d'%(i+j), end = '')
@@ -85,24 +85,24 @@ print ('%3d'%(i+j), end = '')
 
 ## Latihan 4
 
-Program Menampilkan N Bilangan Acak yang Lebih Kecil dari 0.5
+<p> Program Menampilkan N Bilangan Acak yang Lebih Kecil dari 0.5 </p>
 
 ![IMG 4](screenshot/4.png)
 
 Penjelasan :
 
-    1. Import Module Bilangan Random
+   <p> 1. Import Module Bilangan Random </p>
 
 ```bash
 from random import random
 ``` 
 
-    2. Untuk menginput nilai yang ingin dikonversikan kedalam bilangan bulat (Integer) yang akan di masukan kedalam variabel a
+   <p> 2. Untuk menginput nilai yang ingin dikonversikan kedalam bilangan bulat (Integer) yang akan di masukan kedalam variabel a </p>
 
 ```bash
 a = int(input("Masukan Bialngan : "))
 ```
-    3. Untuk pengulangan range yang diinputkan oleh variable a
+  <p>  3. Untuk pengulangan range yang diinputkan oleh variable a </p>
 
 ```bash
 while a==a:
@@ -111,7 +111,7 @@ for i in range(a):
     bil = random()%0.5
 ```
 
-    4. Untuk Menampilkan bialangan a
+  <p>  4. Untuk Menampilkan bialangan a </p>
 
 ```bash
  print ("Perulangan ke- :", bil)
