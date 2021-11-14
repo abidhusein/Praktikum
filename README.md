@@ -15,16 +15,19 @@ b = int(input("Masukan Nilai 2 : "))
 ```
 Proses : 
    <p> 2. jika (if) bilangan a lebih besar dari biangan b maka bilangan a lebih besar </p>
+
 ```bash
 if a > b:
     makx = a
 ```
    <p> 3. jika (if) bilangan b lebih besar dari bilangan a maka bilangan b lebih besar </p>
+
 ```bash
 else:
     makx = b
 ```
     4. Untuk menampilkan hasil
+
 ```bash
 print ("Bilangan terbesar Adalah : ",makx)
 ```
@@ -38,6 +41,7 @@ Program Menampilkan Sebuah Bilangan Dari Bilangan Terkecil ke Bilangan Terbesar
 Penjelasan :
 
     1. Untuk menginput lima buah bilangan yang akan dimasukan ke list variabel 
+
 ```bash
 bilangan = []
 for i in range(1,6):
@@ -45,10 +49,12 @@ for i in range(1,6):
 ```
 
     2. Data akan diproses menggunakan metode sort. yaitu metode untuk mengurutkan data, baik itu dari nilai terkecil ataupun terbesar.
+
 ```bash
 bilangan.sort()
 ```
     3. Untuk Menapilkan Data
+
 ```bash
 print("Urutan Bilangan",bilangan)
 ```
@@ -58,7 +64,7 @@ SELESAi
 
 Program Perulangan Bertingkat (Nested for)
 
-![Img 3](screenshoot/3.png)
+![Img 3](screenshot/3.png)
 
 Penjelasan :
 Note : i (Baris), j (Kolom)
@@ -71,6 +77,7 @@ for i in range (10):
         
 ```
     2. Untuk hasil dari perulangan
+
 ```bash
 print ('%3d'%(i+j), end = '')
     print()
@@ -96,6 +103,7 @@ from random import random
 a = int(input("Masukan Bialngan : "))
 ```
     3. Untuk pengulangan range yang diinputkan oleh variable a
+
 ```bash
 while a==a:
     break
